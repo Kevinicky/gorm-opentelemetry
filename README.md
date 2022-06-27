@@ -3,6 +3,8 @@
 
 OpenTelemetry plugin for GORM v2
 
+Special thanks for kostyay for creating this package
+
 Traces all queries along with the query SQL.
 
 Usage Example:
@@ -27,7 +29,7 @@ package main
 import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	"github.com/kostyay/gorm-opentelemetry"
+	"github.com/Kevinicky/gorm-opentelemetry"
 )
 
 type Product struct {
