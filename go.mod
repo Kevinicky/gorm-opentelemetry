@@ -1,4 +1,4 @@
-module github.com/kevinicky/gorm-opentelemetry
+module github.com/kevinicky/otelgorm
 
 go 1.18
 
